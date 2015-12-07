@@ -1,0 +1,177 @@
+#nav {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#banner {
+  position: relative;
+}
+
+#spacer {
+  min-height=50px;
+}
+
+#first {
+  background: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 800px;
+}
+
+#second {
+  background: url('https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 800px;
+}
+
+#third {
+  background: url('https://41.media.tumblr.com/92e61775d4c3edcc5145936e3703d125/tumblr_nt5uo9fH9y1ud7rr3o1_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 800px;
+}
+
+#fourth {
+  background: url('https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 800px;
+  margin-bottom: 110px;
+}
+
+footer {
+  position: relative;
+  margin-top: -110px;
+  /* negative value of footer height */
+  
+  height: 110px;
+  clear: both;
+  padding-top: 20px;
+  background-color: #202020;
+}
+
+ul {
+  display: inline;
+}
+
+.centered-content {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 0px 2px 4px black;
+  font-weight: bold;
+}
+
+#one {
+  color: #428bca;
+  font-size: 64pt;
+}
+
+#two {
+  color: #5cb85c;
+  font-size: 64pt;
+}
+
+#three {
+  color: #f0ad4e;
+  font-size: 64pt;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+#four{
+  color: #d9534f;
+  font-size: 64pt;
+}
+
+h2 {
+  text-shadow: 0px 0px 4px black;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#me-img {
+  border: 2px black solid;
+  vertical-align: middle;
+}
+
+.intro-p {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 24px;
+  color: white;
+  text-shadow: 0px 0px 4px black;
+}
+
+.intro-p a {
+  color: #5bc0de;
+  font-weight: bold;
+}
+
+#copyright {
+  margin-left: 13px;
+  padding-top: 10px;
+}
+
+.foot {
+  color: #428bca;
+  font-weight: bold;
+}
+
+.item {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.portfolio-link {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: black;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.portfolio-hover:hover {
+  opacity: .5;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.portfolio-text {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.portfolio-desc {
+  font-style: italic;
+}
+
+#email{
+  color: white;
+  border-bottom: 3px ridge white;
+}
+
+#email:hover{
+  border-bottom: 3px ridge #5bc0de;
+  color: #5bc0de;
+  text-decoration: none;
+}
+
+#email:focus{
+  text-decoration: none;
+}
